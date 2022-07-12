@@ -1,0 +1,6 @@
+/nbproject/private/
+.travis.yml
+/tests/
+phpunit.xml.dist
+/bin/
+/.idea/

@@ -1,0 +1,64 @@
+<table class="table widefat">
+
+    <thead>
+        <tr>
+            <td>Field</td>
+            <td>RegEx Pattern</td>
+            <td>Condition</td>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>
+                Date Field
+            </td>
+
+            <td>
+                ((0[1-9])|(1[0-2]))[\/-]((0[1-9])|(1[0-9])|(2[0-9])|(3[0-1]))[\/-](\d{4})
+            </td>
+            <td>
+                Date ( mm/dd/yyyy or mm-dd-yyyy )
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Days
+            </td>
+
+            <td>
+                ^(3[01]|[12][0-9]|[1-9])$
+            </td>
+            <td>
+                Range of 1-31 (day of month): 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Month
+            </td>
+            <td>
+                ^(1[0-2]|[1-9])$
+            </td>
+            <td>
+                Range of 1-12 (day of month): 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Year
+            </td>
+            <td>
+                ^[12][0-9]{3}$
+            </td>
+            <td>
+                Validate Year
+            </td>
+        </tr>
+
+
+
+
+    </tbody>
+</table>

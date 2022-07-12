@@ -1,0 +1,217 @@
+"Project-Id-Version: Real Time Validation for Gravity Forms\n"
+"POT-Creation-Date: 2018-10-02 15:54+0530\n"
+"PO-Revision-Date: 2018-10-02 15:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: support@wisetr.com\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-gravity-forms-live-validation-admin.php:145
+#, php-format
+msgid "%s Settings "
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:150
+#, php-format
+msgid "Enable %s"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:155
+msgid "Enable or Disable real time validation on this form."
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:174
+msgid "Save Settings"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:343
+msgid "Validate Real Time Input"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:358
+msgid "Validation Type"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:375
+msgid "Enter RegEx pattern"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:380
+msgid "Need Help with RegEx Patterns?"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:381
+msgid "OOPS! It doesn't seems like a valid RegEx pattern."
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:427
+#: admin/views/gravity-form-address-fields.php:21
+#: admin/views/gravity-form-address-fields.php:51
+#: admin/views/gravity-form-address-fields.php:85
+#: admin/views/gravity-form-address-fields.php:114
+#: admin/views/gravity-form-address-fields.php:142
+#: admin/views/gravity-form-date-fields.php:21
+#: admin/views/gravity-form-date-fields.php:51
+#: admin/views/gravity-form-date-fields.php:85
+#: admin/views/gravity-form-name-fields.php:21
+#: admin/views/gravity-form-name-fields.php:53
+#: admin/views/gravity-form-name-fields.php:86
+#: admin/views/gravity-form-name-fields.php:118
+#: admin/views/gravity-form-time-fields.php:21
+#: admin/views/gravity-form-time-fields.php:51
+msgid "Error message"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:718
+#: admin/class-gravity-forms-live-validation-admin.php:720
+msgid "Real Time validation"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:767
+#, php-format
+msgid "Plugin <b> %s </b> activated."
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:792
+#, php-format
+msgid ""
+"It seems like <b>Real time validation </b>is turned off. &nbsp; <a href=\"%s"
+"\"><button id=\"button_link_lv_on\" class=\"button button-primary\">Turn On</"
+"button></a>"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:800
+msgid ""
+"<h6>Validate Real Time Input</h6> You can use RegEx to validate user input. "
+"An error message will be thrown to user in real-time, if the RegEx pattern "
+"is violated."
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:801
+msgid ""
+"<h6>Validation Message For Confirm Email</h6> You can add custom error "
+"message that will get triggered while confirm email field value is not same "
+"as email."
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:811
+msgid "Support"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:812
+msgid "How To Use"
+msgstr ""
+
+#: admin/class-gravity-forms-live-validation-admin.php:813
+msgid "Premium Version"
+msgstr ""
+
+#: admin/includes/class-lv-dashboard.php:34
+msgid "Real Time Validation"
+msgstr ""
+
+#: admin/includes/class-lv-dashboard.php:91
+msgid "Our Plugins"
+msgstr ""
+
+#: admin/includes/class-lv-dashboard.php:98
+msgid "How to use"
+msgstr ""
+
+#: admin/includes/class-lv-pointers.php:93
+msgid "Real Time Validation for Gravity Forms"
+msgstr ""
+
+#: admin/views/gravity-form-address-fields.php:5
+msgid "Enter pattern for Street address"
+msgstr ""
+
+#: admin/views/gravity-form-address-fields.php:36
+msgid "Enter pattern for address line 2"
+msgstr ""
+
+#: admin/views/gravity-form-address-fields.php:70
+msgid "Enter pattern for city"
+msgstr ""
+
+#: admin/views/gravity-form-address-fields.php:99
+msgid "Enter pattern for State"
+msgstr ""
+
+#: admin/views/gravity-form-address-fields.php:127
+msgid "Enter pattern for ZIP"
+msgstr ""
+
+#: admin/views/gravity-form-date-fields.php:5
+msgid "Enter pattern for month"
+msgstr ""
+
+#: admin/views/gravity-form-date-fields.php:36
+msgid "Enter pattern for date"
+msgstr ""
+
+#: admin/views/gravity-form-date-fields.php:70
+msgid "Enter pattern for year"
+msgstr ""
+
+#: admin/views/gravity-form-name-fields.php:5
+msgid "Enter pattern for first name"
+msgstr ""
+
+#: admin/views/gravity-form-name-fields.php:38
+msgid "Enter pattern for middle name"
+msgstr ""
+
+#: admin/views/gravity-form-name-fields.php:71
+msgid "Enter pattern for last name"
+msgstr ""
+
+#: admin/views/gravity-form-name-fields.php:103
+msgid "Enter pattern for suffix"
+msgstr ""
+
+#: admin/views/gravity-form-time-fields.php:5
+msgid "Enter pattern for Hours"
+msgstr ""
+
+#: admin/views/gravity-form-time-fields.php:36
+msgid "Enter pattern for Minutes"
+msgstr ""
+
+#: public/class-gravity-forms-live-validation.php:724
+msgid "Emails Do not match"
+msgstr ""
+
+#: public/includes/default_messages.php:4
+#: public/includes/default_messages.php:5
+#: public/includes/default_messages.php:6
+#: public/includes/default_messages.php:7
+#: public/includes/default_messages.php:8
+#: public/includes/default_messages.php:9
+#: public/includes/default_messages.php:10
+#: public/includes/default_messages.php:11
+#: public/includes/default_messages.php:12
+#: public/includes/default_messages.php:13
+#: public/includes/default_messages.php:14
+#: public/includes/default_messages.php:15
+#: public/includes/default_messages.php:16
+#: public/includes/default_messages.php:17
+#: public/includes/default_messages.php:18
+#: public/includes/default_messages.php:19
+#: public/includes/default_messages.php:20
+#: public/includes/default_messages.php:21
+#: public/includes/default_messages.php:22
+#: public/includes/default_messages.php:23
+#: public/includes/default_messages.php:24
+#: public/includes/default_messages.php:25
+#: public/includes/default_messages.php:26
+#: public/includes/default_messages.php:27
+msgid "This field is required."
+msgstr ""

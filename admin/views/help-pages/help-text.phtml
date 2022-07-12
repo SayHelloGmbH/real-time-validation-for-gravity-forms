@@ -1,0 +1,152 @@
+
+    
+    
+    <table class="table widefat">
+
+        <thead>
+            <tr>
+                <td>Condition</td>
+                <td>RegEx Pattern</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Numbers only
+                </td>
+                <td>
+                    ^[0-9]*$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email
+                </td>
+                <td>
+                    ^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Time in 12-hour format (hh:mm)
+                </td>
+                <td>
+                    ^(1[0-2]|0?[1-9]):([0-5]?[0-9])$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Time in 12-hour format (hh:mm:ss)
+                </td>
+                <td>
+                    ^(1[0-2]|0?[1-9]):([0-5]?[0-9]):([0-5]?[0-9])$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Range of 1-12 (hour, month)
+                </td>
+                <td>
+                    ^(1[0-2]|[1-9])$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Range of 1-24 (hour): 
+                </td>
+                <td>
+                    ^(2[0-4]|1[0-9]|[1-9])$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Range of 0-59 (minute, second):
+                </td>
+                <td>
+                    ^[1-5]?[0-9]$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Range of 1-31 (day of month): 
+                </td>
+                <td>
+                    ^(3[01]|[12][0-9]|[1-9])$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Range of 0-100 (percentage):
+                </td>
+                <td>
+                    ^(100|[1-9]?[0-9])$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    SSN
+                </td>
+                <td>
+                    ^(?!000|666)(?:[0-6][0-9]{2}|7(?:[0-6][0-9]|7[0-2]))-(?!00)[0-9]{2}-(?!0000)[0-9]{4}$
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Name (alphabetical characters and spaces only)
+                </td>
+                <td>
+                    ^[a-z\s]+$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Postal Address
+                </td>
+                <td>
+                    [a-zA-Z\d\s\-\,\#\.\+]+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip Code (US)
+                </td>
+                <td>
+                    ^\d{5,6}(?:[-\s]\d{4})?$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date ( mm/dd/yyyy or mm-dd-yyyy )
+                </td>
+                <td>
+                    ((0[1-9])|(1[0-2]))[\/-]((0[1-9])|(1[0-9])|(2[0-9])|(3[0-1]))[\/-](\d{4})
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    URL
+                </td>
+                <td>
+                    https?\:\/\/[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Limit characters (eg: 140)
+                </td>
+                <td>
+                    ^[\s0-9A-Za-z!@.,;:'"?-]{1,140}$
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Words limit (10 - 15 words)
+                </td>
+                <td>
+                    ^[-\w]+(?:\W+[-\w]+){9,14}\W*$
+                </td>
+            </tr>
+        </tbody>
+    </table>

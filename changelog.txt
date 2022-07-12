@@ -1,0 +1,129 @@
+= 1.6.0 = 
+* Fixed: Date Field showing JS error after selection in the field.
+* Added: New validation for email confirmation field that checks if same email is entered in confirmation field.
+
+= 1.5.0 = 
+* Fixed: Critical Update as having fixes that makes the plugin compatible with php > 7.2
+* Fixed: Issue in name field validation, forced required validation for the middle name field is getting applied.
+
+= 1.4.0 = 
+* Fixed: Critical Issue when User hits submit button more than once, form getting submitted multiple times. 
+* Fixed: Resolved conflict with Yoast SEO plugin and moved rendering for the script over wp_footer, to prevent form process over admin calls.
+
+= 1.3.0 = 
+
+* Fixed: Some functionality issues with the Save & Continue feature of gravity forms.
+* Fixed: Text-domain modified in last update, but not implemented, now fixed. 
+* Added: A callback function to modify the scroll offset of the field position, raised by a support ticket. 
+
+= 1.2.0 = 
+* Fixed: Fatal Error coming when partial entry saving AJAX gets fired.
+* Added: Compatibility with Gforms 2.2.5 & WordPress 4.9
+
+
+= 1.1.0 =
+-- Fixed: Checkbox conditional logic was not working when RTV is on on that input.
+-- Fixed: Critical bug: When inputs are getting disabled by our non visible fields logic, field values was not submitting after form submission. In multi step
+            Forms one can visualize it by loosing the selection user made at prev step. Attribute added to detect if we need to validate that field or not.
+-- Fixed multiform handling: on submit window property reset
+-- Fixed multiform handling: all_validation structure modified
+-- Fixed multiform handling: form id handled
+-- Fixed after activation effect on version >= 2.0.0
+-- Fixed Real time validation help button not showing on version >= 2.0.0
+
+
+= 1.0.17 =
+* Removed: Code responsible for plugin deactivation when Gforms doesn't exist.
+* Fixed: Filtered Regex to not allow any such modifier(s) to the front end that cause validation failure or any abrupt behavior, live validation format validation now runs without any modifiers.
+
+= 1.0.16 =
+* Fix: Undefined "all_validations" issue caused by last update.
+
+= 1.0.15 =
+* Fix: Hidden state conflict with conditional logic causing fields to be disabled when form in modal popups.
+* Added: JS Hooks for validation and success.
+* Fixed: Resolved issue of form object turing into boolean TRUE, when we disable notification forever.
+
+
+
+= 1.0.14 =
+* Fixed: `fid` get param conflict with gform feeds system, preventing feed page to open in backend
+* Fixed: FIelds settings were showing even Live validation is off for form.
+
+
+= 1.0.13 =
+* Added: Native UT for notifications.
+* Added: reload after quick toggle on form edit page.
+* Fixed: Address Line number 2 was marked as required.
+* Fixed: Conditional fields getting validated while hidden.
+
+= 1.0.12 =
+* Added: Easy Turn ON/OFF Real Time Validation from Gform Listing page.
+* Added: Support for GForm Logging AddOn
+
+= 1.0.11 =
+* Fixed: Window smooth scroll effect on perfect position.
+* Fixed: Auto validation on email field
+* Fixed: Phone Number masking handling on required validation
+* Added: New `How to Use` Video
+* Fixed: Keeping track of the changes happening over the form while Setting for the form is turned off. So we never face issues of mis configurations.
+
+
+= 1.0.10 =
+* Added: Focus Out Compatibility with Broswers (Mozilla and Safari).
+* Fix: Sub fields and error conflict resolved.
+* Feature: Window Scrolling to the field in error.
+* Added: Better Notification UI.
+* Bug: WP pointer callled in specific pages.
+
+= 1.0.9 =
+* Feature: Support for multistep forms with AJAX.
+* Added: Settings page under Gravity forms global settings
+* Added: Support form.
+* Added: Tab for user documentaion.
+* Added: Pro feature documentaion and subscription for pro.
+* Added: Video tutorial using WP Pointers on form edit page.
+* Modification: Validation trigger applies on Focus out instead of keyUp/Change.
+* Fix: Fields for RegEx validatations left open.
+
+= 1.0.8 =
+* Fix: Resolved conflict with masked inputs during validation.
+* Added: Admin Notice to Enable validation for the form.
+
+= 1.0.7 =
+* Fix: corrected the pattern given for limit
+* Added: Better installation process, User experience changes
+* Added: Tooltips and friendly naming of labels.
+
+
+= 1.0.6 =
+* Fix: Issue in some fields stopped validating after v1.0.5 push
+
+= 1.0.5 =
+* Field support: Post & pricing fields (except image upload)
+* Added: Regex pattern help thick box
+* Fix: Validation error was showing on some cases in sub fields
+* Fix: Radio & checkboxes validation not working when submit triggered
+
+
+= 1.0.4 =
+* Field support: Address, Website & Time.
+* Fix: Saving field level configuration for sub fields
+* Fix: Resolved an issue, inconsistant behaviour for error prompt for sub fields
+
+
+= 1.0.3 =
+* Fix: Form object was printing above the form
+* Fix: Conditional logic not working properly when fields are toggled.
+
+= 1.0.2 =
+* Field support: Email, Phone, Name & Date.
+* Fix:  Conditional logic suppoort.
+* Fix: Ajax submission issues causing jQuery errors.
+
+= 1.0.1 =
+* fix: Problem in initialization for dropdown fields.
+* fix: Ajax loader was showing while validation is on.
+
+= 1.0.0 =
+* Real Time Validation for Gravity Forms.

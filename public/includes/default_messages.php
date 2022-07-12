@@ -1,0 +1,28 @@
+<?php
+
+$default_messages = array(
+    'text' => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "textarea" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "radio" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "checkbox" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "number" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "select" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "multiselect" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "name" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "date" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "phone" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "email" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "address" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "website" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "time" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "post_title" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "post_content" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "post_excerpt" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "post_tag" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "post_category" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "post_custom_field" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "product" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "option" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    "quantity" => __("This field is required.", "real-time-validation-for-gravity-forms"),
+    'shipping' => __("This field is required.", "real-time-validation-for-gravity-forms"),
+);
