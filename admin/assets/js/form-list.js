@@ -34,7 +34,7 @@
 
             var str = "";
 
-            if (lv_formlist[form_id] !== "") {
+            if (lv_scripts.lv_formlist[form_id] !== "") {
                 str = " checked ";
             }
 
@@ -60,13 +60,13 @@
 function toggleRvState(formID, elem) {
     if (window["is_window_loaded"] == true) {
         window.location =
-            lv_toggle_url +
+            lv_scripts.lv_toggle_url +
             "&action=gf_lv_ajax_toggle&lvformid=" +
             formID +
             "&elemstate=" +
             elem.checked +
             "&nonce=" +
-            lv_ajax_toggle_nonce;
+            lv_scripts.lv_ajax_toggle_nonce;
     }
 }
 

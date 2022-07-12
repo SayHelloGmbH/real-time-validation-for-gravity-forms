@@ -43,10 +43,6 @@ class lv_formlist_option
         foreach ($forms as $form) {
             $array[$form->id] = rgar(GFFormsModel::get_form_meta($form->id), "gform_enable_lv");
         }
-
-        wp_localize_script("jquery", 'lv_formlist', $array);
-        wp_localize_script("jquery", 'lv_ajax_toggle_nonce', wp_create_nonce('gf_lv_ajax_toggle'));
-        wp_localize_script("jquery", 'lv_toggle_url', admin_url('admin.php?page=gf_edit_forms'));
     }
 }
 

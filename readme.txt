@@ -1,9 +1,9 @@
 === Real Time Validation for Gravity Forms ===
-Contributors: wisetr, djeet
+Contributors: wisetr, djeet, markhowellsmead
 Tags: gravity forms,gravity forms addon,gravity forms fields validation,live validation,jquery validation,client side validation,javascript validation
 Requires at least: 4.2.1
-Tested up to: 4.9.6
-Stable tag: 1.7.0
+Tested up to: 6.0.0
+Stable tag: 1.7.1
 License: GPLv2 or later
 
 Real Time Validation for Gravity Forms increases conversion rates of your Gravity Form using inline validation messages as user types in field.
@@ -62,6 +62,7 @@ Here is the example of how to use hook for invalid state-
 });
 
 = Latest Updates =
+* July 12th 2022: Fixed PHP warnings in backend
 * June , 9th 2018: Added a New Validation for matching Email input confirmation fields
 * April , 29th 2018: Compatibility With PHP 7.2
 * April , 29th 2018: Compatibility With Gravity Forms 2.3

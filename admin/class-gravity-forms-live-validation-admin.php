@@ -298,6 +298,11 @@ if (!class_exists('Gravity_Forms_Live_Validation_Admin')) {
 
                     wp_enqueue_style($this->plugin_slug . '-admin-styles', plugins_url('assets/css/admin.css', __FILE__), array(), Gravity_Forms_Live_Validation::VERSION);
                     wp_enqueue_script($this->plugin_slug . '-admin-script-formlist', plugins_url('assets/js/form-list.js', __FILE__), array('jquery'), Gravity_Forms_Live_Validation::VERSION);
+                    wp_localize_script($this->plugin_slug . '-admin-script-formlist', 'lv_scripts', [
+                        'lv_formlist' => [],
+                        'lv_ajax_toggle_nonce' => wp_create_nonce('gf_lv_ajax_toggle'),
+                        'lv_toggle_url', admin_url('admin.php?page=gf_edit_forms')
+                    ]);
 
                     wp_enqueue_script($this->plugin_slug . '-admin-script', plugins_url('assets/js/admin.js', __FILE__), array('jquery'), Gravity_Forms_Live_Validation::VERSION);
                 }
