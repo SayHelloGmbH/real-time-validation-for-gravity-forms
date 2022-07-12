@@ -5,19 +5,21 @@
  *
  * @author amritansh
  */
-class lv_all_ajax {
+class lv_all_ajax
+{
 
-    public function __construct() {
+    public function __construct()
+    {
 
 
         add_action('wp_ajax_lv_dismiss_error', array($this, "lv_dismiss_error"));
-    
     }
 
     /**
      * Error dismiss handling for each form
      */
-    public function lv_dismiss_error() {
+    public function lv_dismiss_error()
+    {
 
         extract($_POST);
 
@@ -30,9 +32,6 @@ class lv_all_ajax {
 
         exit;
     }
-
-  
-
 }
 
 new lv_all_ajax();

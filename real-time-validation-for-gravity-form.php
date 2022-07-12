@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @wordpress-plugin
  * Plugin Name:       Real Time Validation for Gravity Forms
@@ -25,7 +26,7 @@ define('LV_ROOT', plugin_dir_path(__FILE__));
 define('LV_ROOT_URL', plugin_dir_url(__FILE__));
 
 
-if(class_exists('GFForms')){
+if (class_exists('GFForms')) {
 
     require_once(plugin_dir_path(__FILE__) . 'public/class-gravity-forms-live-validation.php');
 
@@ -52,7 +53,6 @@ if(class_exists('GFForms')){
 function lv_init_domain()
 {
     load_plugin_textdomain('real-time-validation-for-gravity-forms', FALSE, plugin_basename(dirname(__FILE__)) . '/languages');
-
 }
 
 function lv_validation_install($plugin)

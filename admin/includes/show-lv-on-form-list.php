@@ -3,27 +3,28 @@
 /**
  *
  */
-class lv_formlist_option {
+class lv_formlist_option
+{
 
-    public function run() {
+    public function run()
+    {
 
-        add_action('admin_init', array($this, 'admin_init'),300);
-         
+        add_action('admin_init', array($this, 'admin_init'), 300);
     }
 
-    public function admin_init() {
+    public function admin_init()
+    {
 
-        if (( 'gf_edit_forms' == RGForms::get('page'))) {
+        if (('gf_edit_forms' == RGForms::get('page'))) {
 
             $this->show_page_on_form_list();
-
-       
         }
     }
 
-  
 
-    private function show_page_on_form_list() {
+
+    private function show_page_on_form_list()
+    {
 
 
         $sort_column = empty($_GET['sort']) ? 'title' : $_GET['sort'];
@@ -47,11 +48,7 @@ class lv_formlist_option {
         wp_localize_script("jquery", 'lv_ajax_toggle_nonce', wp_create_nonce('gf_lv_ajax_toggle'));
         wp_localize_script("jquery", 'lv_toggle_url', admin_url('admin.php?page=gf_edit_forms'));
     }
-    
-   
-
 }
 
 $gfpgfu_show_page = new lv_formlist_option();
 $gfpgfu_show_page->run();
-

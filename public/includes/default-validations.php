@@ -1,6 +1,7 @@
 <?php
 
-$default = array('presence' => array(
+$default = array(
+    'presence' => array(
         'type' => 'presence',
         'error' => ''
     ),

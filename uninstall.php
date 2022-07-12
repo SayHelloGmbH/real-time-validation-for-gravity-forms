@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Fired when the plugin is uninstalled.
  *
@@ -10,13 +11,13 @@
  */
 
 // If uninstall not called from WordPress, then exit
-if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
+if (!defined('WP_UNINSTALL_PLUGIN')) {
 	exit;
 }
 if (is_multisite()) {
 	global $wpdb;
 	$blogs = $wpdb->get_results("SELECT blog_id FROM {$wpdb->blogs}", ARRAY_A);
-		/* @TODO: delete all transient, options and files you may have added 
+	/* @TODO: delete all transient, options and files you may have added 
 		delete_transient( 'TRANSIENT_NAME' );
 		delete_option('OPTION_NAME');
 		//info: remove custom file directory for main site 
@@ -30,7 +31,7 @@ if (is_multisite()) {
 		}
 		*/
 	if ($blogs) {
-		foreach($blogs as $blog) {
+		foreach ($blogs as $blog) {
 			switch_to_blog($blog['blog_id']);
 			/* @TODO: delete all transient, options and files you may have added 
 			delete_transient( 'TRANSIENT_NAME' );
@@ -51,9 +52,7 @@ if (is_multisite()) {
 			restore_current_blog();
 		}
 	}
-}
-else
-{
+} else {
 	/* @TODO: delete all transient, options and files you may have added 
 	delete_transient( 'TRANSIENT_NAME' );
 	delete_option('OPTION_NAME');

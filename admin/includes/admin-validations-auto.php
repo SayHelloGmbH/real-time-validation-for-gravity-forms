@@ -1,6 +1,7 @@
 <?php
 
-$default_admin_vaidations_auto = array('name' => array(
+$default_admin_vaidations_auto = array(
+    'name' => array(
         array(
             array(
                 'type' => 'presence',
@@ -34,11 +35,11 @@ $default_admin_vaidations_auto = array('name' => array(
     ),
     'date' => array(),
     'text' => array(array(
-            array(
-                'type' => 'presence',
-                'fype' => 'text'
-            )
-        )),
+        array(
+            'type' => 'presence',
+            'fype' => 'text'
+        )
+    )),
     'textarea' => array(
         array(
             array(
@@ -47,34 +48,42 @@ $default_admin_vaidations_auto = array('name' => array(
             )
         )
     ),
-    'radio' => array(array(
+    'radio' => array(
+        array(
             array(
                 'type' => 'presence',
                 'fype' => 'radio'
-            ))
+            )
+        )
     ),
-    'select' => array(array(
+    'select' => array(
+        array(
             array(
                 'type' => 'presence',
                 'fype' => 'select'
-            ))
+            )
+        )
     ),
-    'number' => array(array(
-            array(
-                'type' => 'presence',
-                'fype' => 'text'
-            ))
-    ),
-    'multiselect' => array(array(
+    'number' => array(
+        array(
             array(
                 'type' => 'presence',
                 'fype' => 'text'
             )
-        )),
-    'checkbox' => array(array(
+        )
+    ),
+    'multiselect' => array(array(
+        array(
+            'type' => 'presence',
+            'fype' => 'text'
+        )
+    )),
+    'checkbox' => array(
+        array(
             array(
                 'type' => 'presence',
                 'fype' => 'checkbox'
-            ))
+            )
+        )
     )
 );
